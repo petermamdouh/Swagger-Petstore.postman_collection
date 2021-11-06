@@ -1,0 +1,25 @@
+To runnable the collection from Jenkins follow these steps:
+
+1- Navigate to: https://www.jenkins.io/download/
+2- Download jenkins.war
+3- Open cmd
+3- From the folder where jenkins.war is exit
+4- Open cmd
+5- Check if the jenkins.war is an exit in the dir by writing this command: dir
+6- After checking Enter that command: jenkins.war is exit
+7- Get the passcode which is like: asd5446545as2a1sda7sd921as2d
+8- Copy this password OR navigate to the file path 
+9- Enter this URL on your browser: http://localhost:8080/
+10- Enter the password(key)
+11- Then enter your account details
+12- Navigate to the dashboard 
+13- Press on "New item"
+14- Enter the Item name
+15- Select "Freestyle project" then press on "save"
+16- Press on "Build"
+17- Press on "Add build step" then select "Execute Windows batch command"
+18- Enter this Text on the command: newman run <collection URL (share collection then get URL)>
+20- press on "save" button
+21- From the project page press on "Build now"
+22- press on Build ID
+23- Check "console output"

@@ -1,0 +1,9 @@
+to run it from the command line please follow these steps:
+
+1- Install node JS on your machine {navigate to: https://nodejs.org/en/download/}
+2- After installation Check the node JS version
+3- Open cmd then enter this command: npm -v
+3- then enter this command: npm install -g newman
+4- then enter this command: newman run <collection URL || Collection location>
+
+Note that: this collection need to import the test_data.csv file
